@@ -1,7 +1,7 @@
 import bcrypt from "bcrypt";
 import { Request, Response, Router } from "express";
 import { isEmpty, validate } from "class-validator";
-import { User } from "../entities/User";
+import User  from "../entities/User";
 import jwt from "jsonwebtoken";
 import cookie from "Cookie";
 import auth from "../middleware/auth";
